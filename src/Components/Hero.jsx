@@ -1,13 +1,14 @@
 import '../styles/Hero.css';
 import Footer from './Footer'
 import { ArrowDownToLine,Rocket } from "lucide-react";
+import { Link } from 'react-router-dom';
 
 
 const Hero=()=>{
   return(
     <>
       <div className="container">
-        <div className="name-div">
+        <div className="hero-left-part">
           <p class="greeting"> HELLO , I'm</p>
           <p className='name'>
             <span style={{ color: "white" }}>Deepak </span>
@@ -22,7 +23,7 @@ const Hero=()=>{
             </p>
           </div>
           <div className ="hero-buttons">
-            <button className="view-project-btn"><Rocket /> View Projects</button>
+            <Link to='/projects' className='link'><button className="view-project-btn"><Rocket /> View Projects</button></Link>
             <button className="download-resume-btn">
               <ArrowDownToLine /> Download Resume</button>
           </div>
@@ -30,7 +31,7 @@ const Hero=()=>{
             <Footer/>
           </div>
         </div>
-        <div className="image-div">
+        <div className="hero-right-part">
           <div className="green-circle"></div>
           <div className="green-circle2"></div>
           <img className="image" src="/Profilewithoutbg.png" alt="Profile Image" />
