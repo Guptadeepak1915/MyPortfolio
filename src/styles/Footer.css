@@ -1,0 +1,32 @@
+.footer-div{
+  margin-top: 30px;
+  background: transparent;
+}
+.social-media-icon-div{
+  /* border: 2px inset #a28089; */
+  width: 60%;
+  text-align: start;
+  display: flex;
+  flex-direction:row;
+    
+}
+.social-media-icon-div a{
+  text-decoration: none;
+  color: black;
+}
+.social-media-icon{
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 15px;
+}
+.social-media-icon:hover{
+background:transparent;
+border: 1px solid wheat;
+color: white;
+transition: 0.5s;
+}
+

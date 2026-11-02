@@ -2,8 +2,8 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div class="eductation-container">
-      <div class="schooling">
+    <div className="eductation-container">
+      <div className="schooling">
         <h1>Schooling</h1>
       </div>
       
