@@ -36,58 +36,6 @@ const Hero=()=>{
           <img className="image" src="/Profilewithoutbg.png" alt="Profile Image" />
         </div>
       </div>
-      
-      <div className="para-heading-div">
-        <div className="heading-div">
-          <h1>Academics Excellence</h1>
-        </div>
-        <div className="paragraph-div">
-          <p>Complited 10th with 88% in 2021</p>
-          <p>Completed 12th with 78.4% in 2023</p>
-          <p>
-            Currentaly i am Pursuing B.Tech from Gandhi Engineering College
-            ,BBSR(ODISA){" "}
-          </p>
-        </div>
-      </div>
-
-      <div className="para-heading-div">
-        <div className="heading-div">
-          <h1>Projects</h1>
-        </div>
-        <div className="About-paragraph">
-          <ol>
-            <li>
-              <a href="https://github.com/Guptadeepak1915/calculator_project">
-                <p>Calculator Using Java</p>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Guptadeepak1915/IPAddress-Founder">
-                Ip Address Founder of your machine
-              </a>
-            </li>
-            <li>
-              {" "}
-              <a href="https://github.com/Guptadeepak1915/Html-Projects/tree/main/Restaurant%20website">
-                <p>Restaurant Website Using HTML&CSS</p>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Guptadeepak1915/Html-Projects/tree/main/Music%20Website">
-                <p>Music Website (clone of Savan)</p>
-              </a>
-            </li>
-            <li>
-              {" "}
-              <a href="https://github.com/Guptadeepak1915/Html-Projects/tree/main/Calcolator%20Using%20Html">
-                <p>Calculator Using HTML&CSS</p>
-              </a>
-            </li>
-          </ol>
-        </div>
-      </div>
-      
     </>
     
   )
