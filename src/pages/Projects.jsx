@@ -1,11 +1,14 @@
 import React from "react";
 import Nav from "../Components/Nav";
+import '../styles/Project.css'
+import { project } from "../ProjectData/ProjectData";
 
 const Projects = () => {
   return (
     <>
-    <Nav/>
-      <div className="para-heading-div">
+    <title>Projects</title>
+      <Nav />
+      {/* <div className="para-heading-div">
         <div className="heading-div">
           <h1>Projects</h1>
         </div>
@@ -40,6 +43,26 @@ const Projects = () => {
             </li>
           </ol>
         </div>
+      </div> */}
+
+      <div className="project-card-div">
+        {project.map((projects)=>{
+          return(
+            <>
+            <div className="project-container">
+            <div className="project-img-div">
+              <img className="project-img" src={projects.img} alt="Project Image" />
+            </div>
+            <div className="project-details">
+              <p>Project Name : {projects.name}</p>
+              <p>Project Live : <a href={projects.liveLink} target="_blank">Go to Website</a></p>
+              <p>Github Repo: <a href={projects.github}  target="_blank">Github Link</a></p>
+            </div>
+          </div>;
+            </>
+          )
+        })
+        }
       </div>
     </>
   );

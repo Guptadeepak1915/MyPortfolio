@@ -51,6 +51,8 @@
   flex-direction: row;
   width: 70%;
   justify-content: start;
+  
+ 
 }
 .view-project-btn , .download-resume-btn{
   padding: 8px 20px ;
@@ -69,6 +71,7 @@
   background:transparent;
   color: white;
   border: 1px solid white;
+  transform:translateX(5px);
   transition: 0.5s;
 }
 .download-resume-btn{
@@ -78,9 +81,10 @@ color: white;
 margin-left: 30px;
 }
 .download-resume-btn:hover{
-  transition: 0.5s;
+  transition: 0.4s;
   background: #A6FF7A;
   color: #080F0B;
+  transform:translateX(3px);
   box-shadow: 0 0 20px rgba(166, 255, 122, 0.35);
 }
 .hero-left-part .name {

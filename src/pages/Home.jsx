@@ -5,6 +5,7 @@ import Hero from "../Components/Hero";
 const Home = () => {
   return (
    <>
+   <title>Deepak Gupta | Portfolio</title>
     <Nav/>
     <Hero/>
    </>

@@ -1,0 +1,156 @@
+.education-section {
+  background: #0B160F;
+  color: #F5F0DF;
+  padding: 80px 8%;
+}
+
+.education-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.education-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section-tag {
+  color: #D4AF37;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.education-heading h2 {
+  font-size: 38px;
+  margin: 12px 0;
+}
+
+.education-heading h2 span {
+  color: #D4AF37;
+}
+
+.education-heading p {
+  color: #C5D5C0;
+}
+
+/* Timeline */
+
+.education-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.education-card {
+  display: flex;
+  gap: 22px;
+  padding: 25px;
+  background: #18291D;
+  border: 1px solid #344B38;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  border-color: #D4AF37;
+  box-shadow: 0 10px 30px #D4AF3718;
+}
+
+.education-icon {
+  min-width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #263B2B;
+  color: #D4AF37;
+  border-radius: 12px;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.education-duration {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #C5D5C0;
+  font-size: 13px;
+}
+
+.education-status {
+  color: #D4AF37;
+  font-size: 12px;
+  background: #304633;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.education-content h3 {
+  color: #F5F0DF;
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+
+.education-content h4 {
+  color: #D4AF37;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.education-institute {
+  color: #C5D5C0;
+  font-size: 14px;
+}
+
+.education-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #D4AF37;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .education-section {
+    padding: 60px 5%;
+  }
+
+  .education-heading h2 {
+    font-size: 28px;
+  }
+
+  .education-card {
+    padding: 18px;
+    gap: 13px;
+  }
+
+  .education-icon {
+    min-width: 40px;
+    height: 40px;
+  }
+
+  .education-content h3 {
+    font-size: 17px;
+  }
+
+  .education-top {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

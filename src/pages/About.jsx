@@ -4,6 +4,7 @@ import Nav from '../Components/Nav'
 const About = () => {
   return (
     <>
+    <title>About Me</title>
     <Nav/>
       <div  className="para-heading-div">
           <div className="heading-div">
