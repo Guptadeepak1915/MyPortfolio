@@ -10,6 +10,7 @@
   background: linear-gradient( 1002deg,  rgba(27,53,68,1) 2.2%, rgba(110,180,135,1) 84% );
 
 }
+
 .left-section{
   /* border: 2px solid red; */
   display: flex;
@@ -18,7 +19,6 @@
   padding-left: 60px;
 }
 .header-img-div{
-  
   margin-right: 15px; 
 }
 .header-profile-img{
@@ -60,7 +60,19 @@
   color: white;
   transition: 0.5s;
 }
-
+.navtoggle{
+  display: none;
+  padding: 10px 10px ;
+  border-radius: 5px;
+  border:1px solid white;
+  color: white;
+  background:transparent;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
 
 .nav-elements span{
   padding: 8px 20px;
@@ -113,27 +125,30 @@ nav span:hover{
 
 /* Mobile */
 @media screen and (max-width: 480px) {
-    .nav-elements-div {
-        top: 8px;
-        left: 8px;
-        right: 8px;
-        padding: 10px 5px;
-        border-radius: 15px;
+    .left-section{
+      display: flex;
+      padding: 0;
+      margin: 0;
     }
-
-    .nav-elements {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 2px;
+    .left-section .header-img-div{
+      margin-right: 5px;
     }
-
-    nav span {
-        font-size: 14px;
-        margin-left: 0;
-        padding: 8px 5px;
+    .left-section .header-name{
+      font-size: 13px;
+      margin: 0;
     }
-
+    .right-section .nav-elements{
+      display: none;
+    }
+    .right-section .navtoggle{
+      display: block;
+    }
+    .right-section .navtoggle:hover{
+      background:#599476 ;
+      border-color:#599476;
+      transition: 0.4s;
+    }
+    
     nav span:hover {
         padding: 8px 5px;
         box-shadow: 0 0 10px rgba(166,255,122,0.3);

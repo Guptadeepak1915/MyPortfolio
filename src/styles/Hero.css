@@ -227,7 +227,7 @@ left: 0;
 /* =========================
    MOBILE RESPONSIVE
    ========================= */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
 
     .container {
         flex-direction: column;
@@ -239,7 +239,7 @@ left: 0;
         min-height: 100vh;
     }
 
-    .name-div {
+    .hero-left-part {
         width: 100%;
         flex: none;
         margin: 20px 0;
@@ -247,7 +247,7 @@ left: 0;
         font-size: 20px;
     }
 
-    .name-div .name {
+    .hero-left-part .name {
         font-size: clamp(35px, 8vw, 55px);
         border-right: 3px solid rgb(73, 199, 123);
         width: 12ch;
@@ -299,22 +299,30 @@ left: 0;
         width: 280px;
         height: 280px;
         left: 70%;
-        transform: translateX(-40%) translateY(-6%);
+        transform: translateX(-30%) translateY(-2%);
     }
 
     .green-circle {
         top: 0px;
-        left: 50px;
+        left: -80px;
     }
 
     .green-circle2 {
           width: 200px;
+          top:0;
+          
     }
 
     .image {
-        width: 100%;
-        top: 0;
-        left: 0;
+        width:400px;
+        top: 0px;
+        left: -190px;
+    }
+    .hero-right-part{
+        
+    }
+    .footer-div{
+        justify-self: center;
     }
 }
 

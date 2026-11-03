@@ -1,6 +1,8 @@
+import { FaGripLines} from 'react-icons/fa';
 import '../index.css'
 import '../styles/Nav.css';
 import { Link } from 'react-router-dom';
+
 const Nav = () => {
   return (
     <div className='nav-container'>
@@ -8,7 +10,7 @@ const Nav = () => {
         <div className='header-img-div'>
           <Link to='/'><img className='header-profile-img' src="/profilePic.png" alt="profile img" /></Link>
         </div>
-        <div>
+        <div className='header-name-div'>
           <Link to='/' className='link'>
             <p className='header-name'>
              Deepak Gupta
@@ -25,6 +27,7 @@ const Nav = () => {
         <Link className="link" to='/projects'><span>Projects</span></Link>
         </nav>
         <button className='header-contact-btn'>Contact</button>
+        <button className='navtoggle'><FaGripLines/></button>
     </div>
     </div>
     

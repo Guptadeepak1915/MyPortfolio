@@ -27,7 +27,7 @@ const Hero=()=>{
             <button className="download-resume-btn">
               <ArrowDownToLine /> Download Resume</button>
           </div>
-          <div>
+          <div className='footer-div'>
             <Footer/>
           </div>
         </div>
