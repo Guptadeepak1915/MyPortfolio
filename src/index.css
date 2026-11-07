@@ -1,6 +1,9 @@
 body{
   margin-top:70px;
   padding: 0px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   background: linear-gradient(
     120deg,
     #080F0B 0%,
@@ -9,7 +12,7 @@ body{
     #07120C 100%
   );
   background-repeat: no-repeat;
-
+  min-height: 100vh;
 }
 
 .link{

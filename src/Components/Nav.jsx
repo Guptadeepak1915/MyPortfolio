@@ -26,7 +26,7 @@ const Nav = () => {
         <Link className="link" to='/education'><span>Education</span></Link>
         <Link className="link" to='/projects'><span>Projects</span></Link>
         </nav>
-        <button className='header-contact-btn'>Contact</button>
+        <Link to='/contact'><button className='header-contact-btn'>Contact</button></Link>
         <button className='navtoggle'><FaGripLines/></button>
     </div>
     </div>

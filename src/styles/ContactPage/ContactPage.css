@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-parent-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  
+}
+.contact-child-div1{
+  border: 2px solid red;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.contact-child-div1 h1{
+  margin-bottom: 0px;
+  width: 300px;
+  margin-top: 10px;
+  color: white;
+  font-weight:bolder;
+  font-size: 45px;
+}
+.contact-child-div1 span{
+  color: #6de708;
+}
+.contact-child-div1 .heading-paragraph{
+  color: #d5f7b9;
+  width: 80%;
+  font-weight: 600;
+  font-size: 14px;
+  
+}
+.contact-information{
+/* border: 2px solid rgb(127, 47, 255); */
+}
+.contact-information .info-div{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+
+}
+.contact-information .info-div span{
+  color: #d5f7b9;
+  font-size: 13px;
+}
+.contact-information p{
+  color: #d2efbb;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.contact-information .icon-div{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background: #094b1e;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #ADF90C;
+}
+
+.contact-plateform-div{
+  /* border: 2px solid yellow; */
+  /* border-radius: 10px;
+  box-shadow: 0px 0px 20px #6de708; */
+}
+
+
+.getintouch-btn{
+  padding: 2px 8px;
+  border:1px solid #6ed619;
+  background:#091C0F;
+  color: #6de708;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+}
+  .contact-child-div2{
+    border: 2px solid yellow;
+  }

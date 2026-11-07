@@ -1,0 +1,32 @@
+.footer-div{
+  background: transparent;
+}
+.social-media-icon-div{
+  /* border: 2px inset #a28089; */
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  
+    
+}
+.social-media-icon-div a{
+  text-decoration: none;
+  color: white;
+}
+.social-media-icon{
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #ADF90C;
+  border-radius: 5px;
+  background: transparent;
+  margin-right: 15px;
+}
+.social-media-icon:hover{
+border: 2px solid #ADF90C;
+color: #094b1e;
+transition: 0.5s;
+background: #ADF90C;
+box-shadow: 0px 0px 20px #6de708;
+}
+
