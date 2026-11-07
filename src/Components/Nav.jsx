@@ -1,32 +1,32 @@
 import { FaGripLines} from 'react-icons/fa';
 import '../index.css'
 import '../styles/Nav.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <div className='nav-container'>
       <div className='left-section'>
         <div className='header-img-div'>
-          <Link to='/'><img className='header-profile-img' src="/profilePic.png" alt="profile img" /></Link>
+          <NavLink to='/'><img className='header-profile-img' src="/profilePic.png" alt="profile img" /></NavLink>
         </div>
         <div className='header-name-div'>
-          <Link to='/' className='link'>
+          <NavLink to='/' className='NavLink'>
             <p className='header-name'>
              Deepak Gupta
             </p>
-          </Link>
+          </NavLink>
         </div>
       </div>
 
       <div className="right-section">
         <nav className="nav-elements">
-        <Link to="/" className="link"><span>Home</span></Link>
-        <Link to='/about' className='link'><span>About</span></Link>
-        <Link className="link" to='/education'><span>Education</span></Link>
-        <Link className="link" to='/projects'><span>Projects</span></Link>
+        <NavLink to="/" className="NavLink"><span>Home</span></NavLink>
+        <NavLink to='/about' className='NavLink'><span>About</span></NavLink>
+        <NavLink className="NavLink" to='/education'><span>Education</span></NavLink>
+        <NavLink className="NavLink" to='/projects'><span>Projects</span></NavLink>
         </nav>
-        <Link to='/contact'><button className='header-contact-btn'>Contact</button></Link>
+        <NavLink to='/contact'><button className='header-contact-btn'>Contact</button></NavLink>
         <button className='navtoggle'><FaGripLines/></button>
     </div>
     </div>
