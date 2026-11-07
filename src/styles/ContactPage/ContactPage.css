@@ -9,6 +9,7 @@
   padding-top: 25px;
   
 }
+
 .contact-child-div1{
   /* border: 2px solid red; */
   padding-left: 100px;
@@ -194,4 +195,19 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+
+@media (max-width:400px ) {
+  .contact-parent-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .contact-child-div1{
+    padding: 20px;
+  }
+  .contact-child-div2{
+    padding: 20px;
+  }
 }
