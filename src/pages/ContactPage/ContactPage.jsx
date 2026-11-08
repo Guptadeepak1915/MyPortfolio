@@ -1,4 +1,3 @@
-import Footer from "../../Components/Footer";
 import Nav from "../../Components/Nav";
 import "../../styles/ContactPage/Contactpage.css";
 import { Mail, Phone, MapPin ,SendIcon } from "lucide-react";
