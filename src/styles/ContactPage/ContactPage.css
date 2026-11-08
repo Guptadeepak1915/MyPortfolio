@@ -198,7 +198,7 @@
 }
 
 
-@media (max-width:400px ) {
+@media (max-width:500px ) {
   .contact-parent-div{
     display: grid;
     grid-template-columns: 1fr;

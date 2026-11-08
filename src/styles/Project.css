@@ -59,7 +59,7 @@
   color: rgb(166, 248, 166);
 }
 
-@media screen and  (max-width:400px){
+@media screen and  (max-width:500px){
   .project-card-div{
     display: flex;
     flex-direction: column;
