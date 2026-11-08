@@ -1,32 +1,32 @@
 .footer-div{
-  margin-top: 20px;
+  margin-top: 30px;
   background: transparent;
 }
 .social-media-icon-div{
   /* border: 2px inset #a28089; */
   width: 60%;
-  text-align: start;
   display: flex;
   flex-direction:row;
-    
+  justify-content: space-between;
 }
 .social-media-icon-div a{
   text-decoration: none;
-  color: black;
+  color: #f0f1f0;
 }
 .social-media-icon{
   padding: 5px;
-  height: 15px;
-  width: 20px;
-  border: 1px solid;
+  height: 35px;
+  width: 35px;
+  border: 2px solid #def5df;
   border-radius: 5px;
-  background-color: #fff;
+  background:transparent;
   margin-right: 15px;
 }
 .social-media-icon:hover{
 background:transparent;
-border: 1px solid wheat;
-color: white;
+border: 2px solid rgb(9, 232, 102);
+color: rgb(9, 232, 102);
 transition: 0.5s;
+box-shadow: 0 0 20px rgb(9, 232, 102);
 }
 

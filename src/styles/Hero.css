@@ -13,7 +13,7 @@
       #102619,
       #0a170f
     );
-  min-height: 90vh;
+  min-height: 100vh;
   padding-top: 50px;
 }
 
@@ -27,7 +27,7 @@
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: rgb(107, 105, 105);
+  color: rgb(250, 248, 248);
   font-weight: bold;
 }
 .student-type, .role{
@@ -39,25 +39,25 @@
   word-spacing: 1px;
 }
 .self-description{
-  margin-top: 30px;
+    /* border: 2px solid red; */
+  margin-top: 10px;
   color:#edede4;
   font-size: 15px;
   font-weight: bold;
-  width: 90%;
+  width: 85%;
+  padding: 10px 0px;
 }
 
 .hero-buttons{
+    /* border: 2px solid yellow; */
   display: flex;
   flex-direction: row;
   width: 70%;
-  justify-content: start;
-  
- 
 }
 .view-project-btn , .download-resume-btn{
   padding: 8px 20px ;
   border-radius: 10px;
-  border:1px dotted greenyellow;
+  border:1px solid rgb(15, 240, 3);
   background-color: rgb(15, 215, 14);
   font-size: 14px;
   font-weight: bold;
@@ -65,7 +65,6 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
-  
 }
 .view-project-btn:hover{
   background:transparent;
@@ -82,7 +81,7 @@ margin-left: 30px;
 }
 .download-resume-btn:hover{
   transition: 0.4s;
-  background: #A6FF7A;
+  background:rgb(15, 215, 14);
   color: #080F0B;
   transform:translateX(3px);
   box-shadow: 0 0 20px rgba(166, 255, 122, 0.35);

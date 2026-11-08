@@ -9,7 +9,7 @@ const Hero=()=>{
     <>
       <div className="container">
         <div className="hero-left-part">
-          <p class="greeting"> HELLO , I'm</p>
+          <p class="greeting"> Hello , <span style={{color:"#6de708"}}>I'm</span></p>
           <p className='name'>
             <span style={{ color: "white" }}>Deepak </span>
             <span style={{ color: "#78B55B" }}>Gupta</span>
@@ -25,7 +25,7 @@ const Hero=()=>{
           <div className ="hero-buttons">
             <Link to='/projects' className='link'><button className="view-project-btn"><Rocket /> View Projects</button></Link>
             <button className="download-resume-btn">
-              <ArrowDownToLine /> Download Resume</button>
+              <ArrowDownToLine className='download-icon'/> Download Resume</button>
           </div>
           <div className='footer-div'>
             <Footer/>
