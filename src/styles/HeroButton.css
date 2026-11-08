@@ -1,0 +1,38 @@
+.hero-buttons{
+    /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.view-project-btn , .download-resume-btn{
+  padding: 8px 20px ;
+  border-radius: 10px;
+  border:1px solid rgb(15, 240, 3);
+  background-color: rgb(15, 215, 14);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.view-project-btn:hover{
+  background:transparent;
+  color: white;
+  border: 1px solid white;
+  transform:translateX(5px);
+  transition: 0.5s;
+}
+.download-resume-btn{
+background: transparent;
+border:1px solid white;
+color: white;
+margin-left: 30px;
+}
+.download-resume-btn:hover{
+  transition: 0.4s;
+  background:rgb(15, 215, 14);
+  color: #080F0B;
+  transform:translateX(3px);
+  box-shadow: 0 0 20px rgba(166, 255, 122, 0.35);
+}

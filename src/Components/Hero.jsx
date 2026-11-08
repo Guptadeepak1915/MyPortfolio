@@ -1,7 +1,6 @@
 import '../styles/Hero.css';
 import Footer from './Footer'
-import { ArrowDownToLine,Rocket } from "lucide-react";
-import { Link } from 'react-router-dom';
+import HeroButton from './HeroButton';
 
 
 const Hero=()=>{
@@ -22,11 +21,7 @@ const Hero=()=>{
               player and always curious about new tech innovation{" "}
             </p>
           </div>
-          <div className ="hero-buttons">
-            <Link to='/projects' className='link'><button className="view-project-btn"><Rocket /> View Projects</button></Link>
-            <button className="download-resume-btn">
-              <ArrowDownToLine className='download-icon'/> Download Resume</button>
-          </div>
+          <HeroButton/>
           <div className='footer-div'>
             <Footer/>
           </div>

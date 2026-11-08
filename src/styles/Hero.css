@@ -1,5 +1,5 @@
 .container {
-  padding: 20px;
+  padding: 60px 20px;
   display: flex;
   justify-content: space-between;
   background: radial-gradient(
@@ -14,7 +14,7 @@
       #0a170f
     );
   min-height: 100vh;
-  padding-top: 50px;
+  
 }
 
 .hero-left-part {
@@ -48,44 +48,7 @@
   padding: 10px 0px;
 }
 
-.hero-buttons{
-    /* border: 2px solid yellow; */
-  display: flex;
-  flex-direction: row;
-  width: 70%;
-}
-.view-project-btn , .download-resume-btn{
-  padding: 8px 20px ;
-  border-radius: 10px;
-  border:1px solid rgb(15, 240, 3);
-  background-color: rgb(15, 215, 14);
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-.view-project-btn:hover{
-  background:transparent;
-  color: white;
-  border: 1px solid white;
-  transform:translateX(5px);
-  transition: 0.5s;
-}
-.download-resume-btn{
-background: transparent;
-border:1px solid white;
-color: white;
-margin-left: 30px;
-}
-.download-resume-btn:hover{
-  transition: 0.4s;
-  background:rgb(15, 215, 14);
-  color: #080F0B;
-  transform:translateX(3px);
-  box-shadow: 0 0 20px rgba(166, 255, 122, 0.35);
-}
+
 .hero-left-part .name {
   overflow: hidden;
   border-right: 6px solid rgb(73, 199, 123);
@@ -229,19 +192,22 @@ left: 0;
 @media screen and (max-width: 400px) {
 
     .container {
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 110px 20px 30px;
         margin-left: 0;
-        gap: 20px;
-        min-height: 100vh;
+        padding-top: 0px;
+        min-height: 120vh;
     }
 
     .hero-left-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         flex: none;
-        margin: 20px 0;
         text-align: center;
         font-size: 20px;
     }
