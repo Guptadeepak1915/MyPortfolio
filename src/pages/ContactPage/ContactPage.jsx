@@ -1,5 +1,5 @@
 import Nav from "../../Components/Nav";
-import "../../styles/ContactPage/Contactpage.css";
+import "../../styles/ContactPage/ContactPage.css";
 import { Mail, Phone, MapPin ,SendIcon } from "lucide-react";
 import ContactPlateform from "./ContactPlateform";
 const ContactPage = () => {
